@@ -1,0 +1,87 @@
+@import "normalizez.scss"
+@import "resets.scss"
+
+*
+    box-sizing: border-box
+
+@font-face 
+    font-family: 'Open Sans Regular'
+    src: url('../fonts/OpenSans-Regular.eot')
+    src: url('../fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/OpenSans-Regular.woff') format('woff'),
+    url('../fonts/OpenSans-Regular.ttf') format('truetype')
+    font-weight: normal
+    font-style: normal
+@font-face 
+    font-family: 'Nunito Sans'
+    src: url('../fonts/NunitoSans-Bold.eot')
+    src: url('../fonts/NunitoSans-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/NunitoSans-Bold.woff') format('woff'),
+    url('../fonts/NunitoSans-Bold.ttf') format('truetype')
+    font-weight: 700
+    font-style: normal
+@font-face 
+    font-family: 'Nunito Sans'
+    src: url('../fonts/NunitoSans-ExtraBold.eot')
+    src: url('../fonts/NunitoSans-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/NunitoSans-ExtraBold.woff') format('woff'),
+    url('../fonts/NunitoSans-ExtraBold.ttf') format('truetype')
+    font-weight: 800
+    font-style: normal
+.main
+    background: linear-gradient(180deg, #0C4C7B -100%, #1E2F40 100%)
+    &__container
+        max-width: 1180px
+        margin: 0 auto //выравнивает блок по центру
+        display: flex
+        justify-content: space-between
+    &__text
+        color: #FAF9F9
+        flex: 0 0 50px
+        padding-top: 170px
+        padding-bottom: 170px
+
+h1
+    font-family: Nunito Sans
+    font-weight: 800
+    font-size: 120px
+    text-transform: uppercase //переводит все буквы в заглавные
+    line-height: 140px //значение межстрочного интервала
+    margin-bottom: 40px
+h1 span
+    color: #FBB731
+    font-size: 30px
+    font-family: Nunito Sans
+    font-weight: 700
+    line-height: 38px
+    display: block
+    margin-bottom: 10px
+p
+    font-family: Open Sans Regular
+    font-size: 19px
+    line-height: 1.4
+    margin-bottom: 42px
+a
+    color: #1E2F40
+    background-color: #FBB731
+    border-radius: 5px
+    text-decoration: none //убираем полоску которая подчеркивает ссылку
+    padding: 20px 45px
+    display: inline-block
+    text-transform: uppercase
+    font-size: 14px
+
+
+.visual
+    flex-grow: 1
+    display: flex
+    justify-content: flex-end
+    position: relative
+    &__br
+        width: 432px
+        height: 100%
+        background: linear-gradient(2.42deg, #F37335 -19.6%, #FBB731 100.79%, #FDC830 100.79%)
+    &__img
+        width: 829px
+        position: absolute
+        right: -168px
