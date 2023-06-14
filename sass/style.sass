@@ -30,6 +30,7 @@
     font-style: normal
 .main
     background: linear-gradient(180deg, #0C4C7B -100%, #1E2F40 100%)
+    margin-bottom: 186px
     &__container
         max-width: 1180px
         margin: 0 auto //выравнивает блок по центру
@@ -40,36 +41,37 @@
         flex: 0 0 50px
         padding-top: 170px
         padding-bottom: 170px
+        p
+            font-family: Open Sans Regular
+            font-size: 19px
+            line-height: 1.4
+            margin-bottom: 42px
 
-h1
-    font-family: Nunito Sans
-    font-weight: 800
-    font-size: 120px
-    text-transform: uppercase //переводит все буквы в заглавные
-    line-height: 140px //значение межстрочного интервала
-    margin-bottom: 40px
-h1 span
-    color: #FBB731
-    font-size: 30px
-    font-family: Nunito Sans
-    font-weight: 700
-    line-height: 38px
-    display: block
-    margin-bottom: 10px
-p
-    font-family: Open Sans Regular
-    font-size: 19px
-    line-height: 1.4
-    margin-bottom: 42px
-a
-    color: #1E2F40
-    background-color: #FBB731
-    border-radius: 5px
-    text-decoration: none //убираем полоску которая подчеркивает ссылку
-    padding: 20px 45px
-    display: inline-block
-    text-transform: uppercase
-    font-size: 14px
+        h1
+            font-family: Nunito Sans
+            font-weight: 800
+            font-size: 120px
+            text-transform: uppercase //переводит все буквы в заглавные
+            line-height: 140px //значение межстрочного интервала
+            margin-bottom: 40px
+        h1 span
+            color: #FBB731
+            font-size: 30px
+            font-family: Nunito Sans
+            font-weight: 700
+            line-height: 38px
+            display: block
+            margin-bottom: 10px
+
+        a
+            color: #1E2F40
+            background-color: #FBB731
+            border-radius: 5px
+            text-decoration: none //убираем полоску которая подчеркивает ссылку
+            padding: 20px 45px
+            display: inline-block
+            text-transform: uppercase
+            font-size: 14px
 
 
 .visual
@@ -85,11 +87,21 @@ a
         width: 829px
         position: absolute
         right: -168px
+
+.promo
+    padding-bottom: 185px
 .promo-left,
 .promo-right
     flex: 0 0 49%
+    color: #fff
+    box-sizing: border-box
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
 .promo-left
-    background-image: url(../img/promo-left.png)   
+    background-image: url(../img/promo-left.png)
+    padding: 116px 50px    
 
 .promo-right
     background-image: url(../img/promo-right.png)
+    padding: 102px 50px
