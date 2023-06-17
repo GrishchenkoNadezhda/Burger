@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -6,12 +5,9 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-/* line 11, ../../../../../Desktop/ВЕБ разработка/3/src/sass/normalizez.scss */
 html {
-  line-height: 1.15;
-  /* 1 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
 }
 
 /* Sections
@@ -19,7 +15,6 @@ html {
 /**
  * Remove the margin in all browsers.
  */
-/* line 23, ../../../../../Desktop/ВЕБ разработка/3/src/sass/normalizez.scss */
 body {
   margin: 0;
 }
@@ -27,7 +22,6 @@ body {
 /**
  * Render the `main` element consistently in IE.
  */
-/* line 31, ../../../../../Desktop/ВЕБ разработка/3/src/sass/normalizez.scss */
 main {
   display: block;
 }
@@ -36,7 +30,6 @@ main {
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
-/* line 40, ../../../../../Desktop/ВЕБ разработка/3/src/sass/normalizez.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
@@ -48,26 +41,19 @@ h1 {
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
  */
-/* line 53, ../../../../../Desktop/ВЕБ разработка/3/src/sass/normalizez.scss */
 hr {
-  box-sizing: content-box;
-  /* 1 */
-  height: 0;
-  /* 1 */
-  overflow: visible;
-  /* 2 */
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
 }
 
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-/* line 64, ../../../../../Desktop/ВЕБ разработка/3/src/sass/normalizez.scss */
 pre {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
 }
 
 /* Text-level semantics
@@ -75,7 +61,6 @@ pre {
 /**
  * Remove the gray background on active links in IE 10.
  */
-/* line 76, ../../../../../Desktop/ВЕБ разработка/3/src/sass/normalizez.scss */
 a {
   background-color: transparent;
 }
@@ -84,20 +69,15 @@ a {
  * 1. Remove the bottom border in Chrome 57-
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
-/* line 85, ../../../../../Desktop/ВЕБ разработка/3/src/sass/normalizez.scss */
 abbr[title] {
-  border-bottom: none;
-  /* 1 */
-  text-decoration: underline;
-  /* 2 */
-  text-decoration: underline dotted;
-  /* 2 */
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
 }
 
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
-/* line 95, ../../../../../Desktop/ВЕБ разработка/3/src/sass/normalizez.scss */
 b,
 strong {
   font-weight: bolder;
@@ -107,20 +87,16 @@ strong {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-/* line 105, ../../../../../Desktop/ВЕБ разработка/3/src/sass/normalizez.scss */
 code,
 kbd,
 samp {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
 }
 
 /**
  * Add the correct font size in all browsers.
  */
-/* line 116, ../../../../../Desktop/ВЕБ разработка/3/src/sass/normalizez.scss */
 small {
   font-size: 80%;
 }
@@ -129,7 +105,6 @@ small {
  * Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers.
  */
-/* line 125, ../../../../../Desktop/ВЕБ разработка/3/src/sass/normalizez.scss */
 sub,
 sup {
   font-size: 75%;
@@ -138,12 +113,10 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 133, ../../../../../Desktop/ВЕБ разработка/3/src/sass/normalizez.scss */
 sub {
   bottom: -0.25em;
 }
 
-/* line 137, ../../../../../Desktop/ВЕБ разработка/3/src/sass/normalizez.scss */
 sup {
   top: -0.5em;
 }
@@ -153,7 +126,6 @@ sup {
 /**
  * Remove the border on images inside links in IE 10.
  */
-/* line 148, ../../../../../Desktop/ВЕБ разработка/3/src/sass/normalizez.scss */
 img {
   border-style: none;
 }
@@ -164,30 +136,23 @@ img {
  * 1. Change the font styles in all browsers.
  * 2. Remove the margin in Firefox and Safari.
  */
-/* line 160, ../../../../../Desktop/ВЕБ разработка/3/src/sass/normalizez.scss */
 button,
 input,
 optgroup,
 select,
 textarea {
-  font-family: inherit;
-  /* 1 */
-  font-size: 100%;
-  /* 1 */
-  line-height: 1.15;
-  /* 1 */
-  margin: 0;
-  /* 2 */
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
 }
 
 /**
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
  */
-/* line 176, ../../../../../Desktop/ВЕБ разработка/3/src/sass/normalizez.scss */
 button,
-input {
-  /* 1 */
+input { /* 1 */
   overflow: visible;
 }
 
@@ -195,32 +160,28 @@ input {
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
  * 1. Remove the inheritance of text transform in Firefox.
  */
-/* line 186, ../../../../../Desktop/ВЕБ разработка/3/src/sass/normalizez.scss */
 button,
-select {
-  /* 1 */
+select { /* 1 */
   text-transform: none;
 }
 
 /**
  * Correct the inability to style clickable types in iOS and Safari.
  */
-/* line 195, ../../../../../Desktop/ВЕБ разработка/3/src/sass/normalizez.scss */
 button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
+[type=button],
+[type=reset],
+[type=submit] {
   -webkit-appearance: button;
 }
 
 /**
  * Remove the inner border and padding in Firefox.
  */
-/* line 206, ../../../../../Desktop/ВЕБ разработка/3/src/sass/normalizez.scss */
 button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner {
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
@@ -228,18 +189,16 @@ button::-moz-focus-inner,
 /**
  * Restore the focus styles unset by the previous rule.
  */
-/* line 218, ../../../../../Desktop/ВЕБ разработка/3/src/sass/normalizez.scss */
 button:-moz-focusring,
-[type="button"]:-moz-focusring,
-[type="reset"]:-moz-focusring,
-[type="submit"]:-moz-focusring {
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 
 /**
  * Correct the padding in Firefox.
  */
-/* line 229, ../../../../../Desktop/ВЕБ разработка/3/src/sass/normalizez.scss */
 fieldset {
   padding: 0.35em 0.75em 0.625em;
 }
@@ -250,26 +209,18 @@ fieldset {
  * 3. Remove the padding so developers are not caught out when they zero out
  *    `fieldset` elements in all browsers.
  */
-/* line 240, ../../../../../Desktop/ВЕБ разработка/3/src/sass/normalizez.scss */
 legend {
-  box-sizing: border-box;
-  /* 1 */
-  color: inherit;
-  /* 2 */
-  display: table;
-  /* 1 */
-  max-width: 100%;
-  /* 1 */
-  padding: 0;
-  /* 3 */
-  white-space: normal;
-  /* 1 */
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
 }
 
 /**
  * Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
-/* line 253, ../../../../../Desktop/ВЕБ разработка/3/src/sass/normalizez.scss */
 progress {
   vertical-align: baseline;
 }
@@ -277,7 +228,6 @@ progress {
 /**
  * Remove the default vertical scrollbar in IE 10+.
  */
-/* line 261, ../../../../../Desktop/ВЕБ разработка/3/src/sass/normalizez.scss */
 textarea {
   overflow: auto;
 }
@@ -286,21 +236,17 @@ textarea {
  * 1. Add the correct box sizing in IE 10.
  * 2. Remove the padding in IE 10.
  */
-/* line 270, ../../../../../Desktop/ВЕБ разработка/3/src/sass/normalizez.scss */
-[type="checkbox"],
-[type="radio"] {
-  box-sizing: border-box;
-  /* 1 */
-  padding: 0;
-  /* 2 */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
 }
 
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-/* line 280, ../../../../../Desktop/ВЕБ разработка/3/src/sass/normalizez.scss */
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
   height: auto;
 }
 
@@ -308,19 +254,15 @@ textarea {
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
-/* line 290, ../../../../../Desktop/ВЕБ разработка/3/src/sass/normalizez.scss */
-[type="search"] {
-  -webkit-appearance: textfield;
-  /* 1 */
-  outline-offset: -2px;
-  /* 2 */
+[type=search] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
 }
 
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
-/* line 299, ../../../../../Desktop/ВЕБ разработка/3/src/sass/normalizez.scss */
-[type="search"]::-webkit-search-decoration {
+[type=search]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
@@ -328,12 +270,9 @@ textarea {
  * 1. Correct the inability to style clickable types in iOS and Safari.
  * 2. Change font properties to `inherit` in Safari.
  */
-/* line 308, ../../../../../Desktop/ВЕБ разработка/3/src/sass/normalizez.scss */
 ::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  /* 1 */
-  font: inherit;
-  /* 2 */
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
 }
 
 /* Interactive
@@ -341,7 +280,6 @@ textarea {
 /*
  * Add the correct display in Edge, IE 10+, and Firefox.
  */
-/* line 320, ../../../../../Desktop/ВЕБ разработка/3/src/sass/normalizez.scss */
 details {
   display: block;
 }
@@ -349,7 +287,6 @@ details {
 /*
  * Add the correct display in all browsers.
  */
-/* line 328, ../../../../../Desktop/ВЕБ разработка/3/src/sass/normalizez.scss */
 summary {
   display: list-item;
 }
@@ -359,7 +296,6 @@ summary {
 /**
  * Add the correct display in IE 10+.
  */
-/* line 339, ../../../../../Desktop/ВЕБ разработка/3/src/sass/normalizez.scss */
 template {
   display: none;
 }
@@ -367,12 +303,10 @@ template {
 /**
  * Add the correct display in IE 10.
  */
-/* line 347, ../../../../../Desktop/ВЕБ разработка/3/src/sass/normalizez.scss */
 [hidden] {
   display: none;
 }
 
-/* line 1, ../../../../../Desktop/ВЕБ разработка/3/src/sass/resets.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -394,97 +328,94 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 21, ../../../../../Desktop/ВЕБ разработка/3/src/sass/resets.scss */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-/* line 25, ../../../../../Desktop/ВЕБ разработка/3/src/sass/resets.scss */
 html {
   height: 100%;
 }
 
-/* line 28, ../../../../../Desktop/ВЕБ разработка/3/src/sass/resets.scss */
 body {
   line-height: 1;
 }
 
-/* line 31, ../../../../../Desktop/ВЕБ разработка/3/src/sass/resets.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 34, ../../../../../Desktop/ВЕБ разработка/3/src/sass/resets.scss */
 blockquote, q {
   quotes: none;
 }
 
-/* line 37, ../../../../../Desktop/ВЕБ разработка/3/src/sass/resets.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: '';
+  content: "";
   content: none;
 }
 
-/* line 42, ../../../../../Desktop/ВЕБ разработка/3/src/sass/resets.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 4, ../../../../../Desktop/ВЕБ разработка/3/src/sass/style.sass */
 * {
   box-sizing: border-box;
 }
 
 @font-face {
-  font-family: 'Open Sans Regular';
+  font-family: "Open Sans Regular";
   src: url("../fonts/OpenSans-Regular.eot");
-  src: url("../fonts/OpenSans-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular.ttf") format("truetype");
+  src: url("../fonts/OpenSans-Regular.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/OpenSans-Regular.woff") format("woff");
+  src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
-
 @font-face {
-  font-family: 'Nunito Sans';
+  font-family: "Nunito Sans";
   src: url("../fonts/NunitoSans-Bold.eot");
-  src: url("../fonts/NunitoSans-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/NunitoSans-Bold.woff") format("woff"), url("../fonts/NunitoSans-Bold.ttf") format("truetype");
+  src: url("../fonts/NunitoSans-Bold.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/NunitoSans-Bold.woff") format("woff");
+  src: url("../fonts/NunitoSans-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
 }
-
 @font-face {
-  font-family: 'Nunito Sans';
+  font-family: "Nunito Sans";
   src: url("../fonts/NunitoSans-ExtraBold.eot");
-  src: url("../fonts/NunitoSans-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/NunitoSans-ExtraBold.woff") format("woff"), url("../fonts/NunitoSans-ExtraBold.ttf") format("truetype");
+  src: url("../fonts/NunitoSans-ExtraBold.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/NunitoSans-ExtraBold.woff") format("woff");
+  src: url("../fonts/NunitoSans-ExtraBold.ttf") format("truetype");
   font-weight: 800;
   font-style: normal;
 }
-
-/* line 31, ../../../../../Desktop/ВЕБ разработка/3/src/sass/style.sass */
 .main {
   background: linear-gradient(180deg, #0C4C7B -100%, #1E2F40 100%);
+  margin-bottom: 186px;
 }
 
-/* line 33, ../../../../../Desktop/ВЕБ разработка/3/src/sass/style.sass */
-.main__container {
+.container {
   max-width: 1180px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
 }
 
-/* line 38, ../../../../../Desktop/ВЕБ разработка/3/src/sass/style.sass */
-.main__text {
+.text {
   color: #FAF9F9;
   flex: 0 0 50px;
   padding-top: 170px;
   padding-bottom: 170px;
 }
-
-/* line 44, ../../../../../Desktop/ВЕБ разработка/3/src/sass/style.sass */
-h1 {
+.text p {
+  font-family: Open Sans Regular;
+  font-size: 19px;
+  line-height: 1.4;
+  margin-bottom: 42px;
+}
+.text h1 {
   font-family: Nunito Sans;
   font-weight: 800;
   font-size: 120px;
@@ -492,9 +423,7 @@ h1 {
   line-height: 140px;
   margin-bottom: 40px;
 }
-
-/* line 51, ../../../../../Desktop/ВЕБ разработка/3/src/sass/style.sass */
-h1 span {
+.text h1 span {
   color: #FBB731;
   font-size: 30px;
   font-family: Nunito Sans;
@@ -504,16 +433,8 @@ h1 span {
   margin-bottom: 10px;
 }
 
-/* line 59, ../../../../../Desktop/ВЕБ разработка/3/src/sass/style.sass */
-p {
-  font-family: Open Sans Regular;
-  font-size: 19px;
-  line-height: 1.4;
-  margin-bottom: 42px;
-}
-
-/* line 64, ../../../../../Desktop/ВЕБ разработка/3/src/sass/style.sass */
-a {
+.main a,
+.promo a {
   color: #1E2F40;
   background-color: #FBB731;
   border-radius: 5px;
@@ -524,26 +445,134 @@ a {
   font-size: 14px;
 }
 
-/* line 75, ../../../../../Desktop/ВЕБ разработка/3/src/sass/style.sass */
 .visual {
   flex-grow: 1;
   display: flex;
   justify-content: flex-end;
   position: relative;
 }
-
-/* line 80, ../../../../../Desktop/ВЕБ разработка/3/src/sass/style.sass */
 .visual__br {
   width: 432px;
   height: 100%;
   background: linear-gradient(2.42deg, #F37335 -19.6%, #FBB731 100.79%, #FDC830 100.79%);
 }
-
-/* line 84, ../../../../../Desktop/ВЕБ разработка/3/src/sass/style.sass */
 .visual__img {
   width: 829px;
   position: absolute;
   right: -168px;
 }
 
-/*# sourceMappingURL=style.css.map */
+.promo {
+  padding-bottom: 185px;
+}
+
+.promo-left,
+.promo-right {
+  flex: 0 0 49%;
+  color: #fff;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.promo-left {
+  background-image: url(../img/promo-left.png);
+  padding: 116px 50px;
+}
+
+.promo-right {
+  background-image: url(../img/promo-right.png);
+  padding: 102px 50px;
+}
+
+.sale {
+  font-size: 14px;
+  font-weight: 900;
+  background: #f37335;
+  padding: 5px 19px;
+  border-radius: 14px;
+  display: inline-block;
+  text-transform: uppercase;
+  margin-bottom: 3px;
+}
+
+.cost {
+  font-size: 60px;
+  font-family: "Nunito Sans";
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+
+.description {
+  font-family: "Open Sans Regular";
+  color: #faf9f9;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.promo-left .description {
+  max-width: 392px;
+}
+
+.promo-right .description {
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+.free {
+  font-size: 44px;
+  font-family: "Nunito Sans";
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.footer {
+  background: #1E2F40;
+  color: #fff;
+  padding-top: 117px;
+  padding-bottom: 106px;
+}
+
+.logo {
+  width: 63px;
+  height: 56px;
+}
+
+.item h2 {
+  font-size: 20px;
+  font-family: "Nunito Sans";
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.item li {
+  margin-bottom: 9px;
+  font-family: Open Sans Regular;
+  font-size: 15px;
+  color: #FAF9F9;
+  line-height: 24px;
+}
+
+.item a {
+  color: #DEDEDE;
+  text-decoration: none;
+  font-family: Open Sans Regular;
+  font-size: 17px;
+}
+
+.item span {
+  color: #DEDEDE;
+  display: block;
+  font-family: Open Sans Regular;
+  font-size: 17px;
+  margin-bottom: 2px;
+}
+
+.tel {
+  font-size: 20px;
+  color: #FBB731;
+  line-height: 34px;
+  font-family: Open Sans Regular;
+}/*# sourceMappingURL=style.css.map */
