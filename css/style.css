@@ -534,6 +534,10 @@ table {
   padding-bottom: 106px;
 }
 
+.footer__container {
+  margin-bottom: 30px;
+}
+
 .logo {
   width: 63px;
   height: 56px;
@@ -575,4 +579,9 @@ table {
   color: #FBB731;
   line-height: 34px;
   font-family: Open Sans Regular;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
 }/*# sourceMappingURL=style.css.map */
